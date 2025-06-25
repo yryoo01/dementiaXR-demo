@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   fridgeHandle.addEventListener('click', () => {
-    fridgeImage.src = "/images/fridge_open.png";
+    fridgeImage.src = "/dementiaXR-demo/images/fridge_open.png";
     fridgeImage.classList.add('open');
 
     fridgeHandle.style.display = 'none';
