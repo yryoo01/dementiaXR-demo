@@ -55,6 +55,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   festivalButton.addEventListener('click', () => {
-    window.location.href = "/ending/festival.html";
+    window.location.href = "/dementiaXR-demo/ending/festival.html";
   });
 });
