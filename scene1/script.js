@@ -40,6 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   nextButton.addEventListener('click', () => {
-    window.location.href = "/scene2/scene2.html";
+    window.location.href = "/dementiaXR-demo/scene2/scene2.html";
   });
 });
