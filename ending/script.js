@@ -46,6 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }, initialBubbleDuration);
 
 nextButton.addEventListener('click', () => {
-  window.location.href = "/title/index.html";
+  window.location.href = "/dementiaXR-demo/index.html";
 });
 });
