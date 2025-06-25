@@ -40,13 +40,13 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   hospitalButton.addEventListener('click', () => {
-    showCharacterScene("/images/family1.svg", "hospital");
+    showCharacterScene("/dementiaXR-demo/images/family1.svg", "hospital");
   });
   restaurantButton.addEventListener('click', () => {
-    showCharacterScene("/images/family2.svg", "restaurant");
+    showCharacterScene("/dementiaXR-demo/images/family2.svg", "restaurant");
   });
   parkButton.addEventListener('click', () => {
-    showCharacterScene("/images/friend1.svg", "park");
+    showCharacterScene("/dementiaXR-demo/images/friend1.svg", "park");
   });
 
   nextCharButton.addEventListener('click', () => {
