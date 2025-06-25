@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dementia WalkXR</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    
+<!-- Initial Scene: Characters and Dialogue -->
+  <div id="initialScene" class="scene">
+    <div class="characters">
+      <img src="/images/family1.svg" id="family1" alt="Family 1" class="character">
+      <!-- <img src="/images/family2.svg" id="family2" alt="Family 2" class="character"> -->
+    </div>
+    <div class="dialogues">
+      <div id="family1Bubble" class="bubble blue-bubble">
+        Honey, could you go check if we still have Emily's favorite ice cream in the freezer?
+      </div>
+      <button id="playerBubble" class="bubble white-bubble">
+        Of course, be right back
+      </button>
+    </div>
+  </div>
+
+  <div id="fridgeScene" class="scene" style="display: none;">
+    <div class="fridge-container">
+      <img src="/images/fridge_closed.png" id="fridgeImage" alt="Fridge" class="fridge">
+      <img src="/images/handle.svg" id="fridgeHandle" alt="Handle" class="handle glow">
+      <div id="openElements" class="open-elements">
+        <img src="/images/heavy_object.svg" id="heavyObject" alt="Heavy Object" class="heavy-object">
+        <img src="/images/ice_cream.svg" id="iceCream" alt="Ice Cream" class="ice-cream glow">
+      </div>
+    </div>
+  </div>
+
+  <div id="blackOverlay"></div>
+
+  <button id="nextButton" style="display: none;">Next</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html> 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dementia WalkXR</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <audio id="bgMusic" src="/images/music.mp3" autoplay loop></audio>
+
+    <div id="sceneContainer">
+      <div id="playerBubble" class="bubble player-bubble">
+        This music sounds familiar. I remember everything now and I even realized that I have been mistaken people this whole time. What happened?
+      </div>
+
+      <div id="characterContainer" style="display: none;">
+        <div class="characters">
+          <img src="/images/family1.svg" id="family1" alt="Family 1" class="character" />
+          <img src="/images/family2.svg" id="family2" alt="Family 2" class="character" />
+          <img src="/images/friend1.svg" id="friend1" alt="Friend 1" class="character" />
+        </div>
+        <div id="dialogueContainer">
+          <div id="bubble1" class="bubble blue-bubble" style="display: none;">dialogue</div>
+          <div id="bubble2" class="bubble orange-bubble" style="display: none;">dialogue</div>
+          <div id="bubble3" class="bubble pink-bubble" style="display: none;">We will help you heal from dementia</div>
+        </div>
+      </div>
+
+      <button id="nextButton" style="display: none;">Next Journey</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html> 

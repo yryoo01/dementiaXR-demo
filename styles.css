@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-color: rgb(183, 211, 232);
+}
+
+.title {
+    position: fixed;
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(62, 96, 122);
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.clock {
+    width: 12em;
+    height: auto;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.clock:hover {
+    transform: scale(1.2);
+}
+
+.actions {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
